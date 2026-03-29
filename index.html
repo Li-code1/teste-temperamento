@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Teste de Temperamento | Liliane Lima</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- HERO COM IMAGEM -->
+<section class="hero">
+<div class="overlay">
+<h1>Descubra Seu Temperamento</h1>
+<p>Entenda sua mente, emoções e padrões</p>
+</div>
+</section>
+
+<div class="container">
+
+<!-- INFO -->
+<div class="card">
+
+<h2>Descubra o padrão emocional que guia sua vida</h2>
+<br>
+<p>
+Você já se perguntou por que reage de certas formas, mesmo quando não quer?
+Por que algumas situações te afetam mais do que outras?
+</p>
+<br>
+<p>
+O teste de temperamento é uma ferramenta de autoconhecimento baseada nos estudos de Hipócrates e Galeno, que revela padrões profundos da sua forma de pensar, sentir e agir.
+</p>
+<br>
+<h3>Os 4 Temperamentos</h3>
+<br>
+<br>Hipócrates</b> propôs que o comportamento humano é influenciado por quatro humores corporais, dando origem aos quatro temperamentos:
+<br>
+<ul>
+<br>
+<li><b>Colérico:</b> mais direto, decidido e orientado para resultados</li>
+<li><b>Sanguíneo:</b> comunicativo, emocional e sociável</li>
+<li><b>Melancólico:</b> analítico, profundo e detalhista</li>
+<li><b>Fleumático:</b> calmo, estável e equilibrado</li>
+</ul>
+<br>
+<p>
+Hoje, esse modelo continua sendo utilizado como base para desenvolvimento pessoal e compreensão emocional.
+</p>
+<br>
+<p class="destaque">
+Você não reage ao mundo por acaso — existe um padrão por trás do seu comportamento.
+</p>
+<br>
+<p>
+Ao responder esse teste, você vai identificar:
+</p>
+<br>
+<ul>
+<li>✔ Como você reage emocionalmente</li>
+<li>✔ Seus padrões de comportamento</li>
+<li>✔ Seus gatilhos internos</li>
+<li>✔ E por que você age da forma que age</li>
+</ul>
+<br>
+<p class="highlight">
+Leva menos de 2 minutos — mas pode te dar uma clareza que você nunca teve.
+</p>
+
+</div>
+<br>
+<!-- FORM -->
+<div class="card">
+
+<h2>Faça o teste</h2>
+<br>
+<input type="text" id="nome" placeholder="Seu nome">
+<input type="email" id="email" placeholder="Seu e-mail">
+<input type="text" id="whatsapp" placeholder="Seu WhatsApp">
+<br>
+<form id="quiz">
+<br>    
+<div id="questions"></div>
+<br>
+<button type="button" onclick="calcular()">Ver Resultado</button>
+</form>
+</div>
+
+<!-- RESULTADO -->
+<div id="resultado" class="result card"></div>
+
+<!-- CTA VENDA -->
+<div class="card venda">
+<h2>Quer entender isso mais profundamente?</h2>
+<p>Eu posso te ajudar a interpretar seu resultado e trabalhar suas emoções.</p>
+
+<button onclick="enviarWhats()">
+Agendar Sessão no WhatsApp
+</button>
+</div>
+
+<!-- PLAYLIST -->
+<div class="card">
+<h2>Assista a Série Completa</h2>
+
+<iframe 
+    width="100%" 
+    height="315"
+    src="https://www.youtube.com/embed/videoseries?list=SEU_ID_PLAYLIST"
+    title="Playlist sobre Temperamentos"
+    allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
