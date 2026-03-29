@@ -2,7 +2,7 @@
 
 Uma aplicação web interativa para identificar padrões emocionais e comportamentais com base nos 4 temperamentos clássicos.
 
-Desenvolvido com foco em **experiência do usuário, psicologia e conversão**, este projeto vai além de um simples teste — ele funciona como um **funil estratégico para captação de clientes**.
+Desenvolvido com foco em **experiência do usuário, psicologia e conversão**, este projeto vai além de um simples teste — ele funciona como um **funil estratégico para captação de clientes**, com **gráfico visual de resultado** e **exportação em PDF**.
 
 ---
 
@@ -16,11 +16,12 @@ Desenvolvido com foco em **experiência do usuário, psicologia e conversão**, 
 
 Criar uma landing page que:
 
-- Gere **identificação emocional imediata**
-- Aumente o tempo de permanência na página
-- Entregue valor real ao usuário
-- Conduza o usuário até uma ação (WhatsApp)
-- Converta visitantes em potenciais clientes
+* Gere **identificação emocional imediata**
+* Aumente o tempo de permanência na página
+* Entregue valor real ao usuário
+* Conduza o usuário até uma ação (WhatsApp)
+* Converta visitantes em potenciais clientes
+* Exiba **gráfico de resultados** e permita **download em PDF**
 
 ---
 
@@ -28,40 +29,45 @@ Criar uma landing page que:
 
 O teste é baseado na teoria dos temperamentos desenvolvida por:
 
-- Hipócrates (pai da medicina)
-- Galeno (sistematização dos 4 temperamentos)
+* Hipócrates (pai da medicina)
+* Galeno (sistematização dos 4 temperamentos)
 
 ### Os 4 temperamentos:
 
-- 🔥 Colérico → ação, controle, decisão  
-- 🎉 Sanguíneo → emoção, comunicação, conexão  
-- 📊 Melancólico → análise, profundidade, perfeição  
-- 🌿 Fleumático → calma, estabilidade, equilíbrio  
+* 🔥 Colérico → ação, controle, decisão
+* 🎉 Sanguíneo → emoção, comunicação, conexão
+* 📊 Melancólico → análise, profundidade, perfeição
+* 🌿 Fleumático → calma, estabilidade, equilíbrio
 
 ---
 
 ## 💡 Funcionalidades
 
-- ✅ Formulário interativo com 12 perguntas
-- ✅ Sistema de pontuação automática
-- ✅ Resultado com:
-  - Temperamento principal
-  - Temperamento secundário
-  - Pontos positivos
-  - Pontos de atenção (negativos)
-  - Impacto na vida emocional
-- ✅ Interface responsiva (mobile e desktop)
-- ✅ Design estilo app (UX moderno)
-- ✅ Integração com WhatsApp para conversão
-- ✅ Estrutura pronta para funil de vendas
+* ✅ Formulário interativo com 12 perguntas
+* ✅ Sistema de pontuação automática
+* ✅ Resultado com:
+
+  * Temperamento principal
+  * Temperamento secundário
+  * Pontos positivos
+  * Pontos de atenção (negativos)
+  * Impacto na vida emocional
+* ✅ Gráfico visual com Chart.js mostrando porcentagem de cada temperamento
+* ✅ Exportação do resultado em PDF via jsPDF
+* ✅ Interface responsiva (mobile e desktop)
+* ✅ Design estilo app (UX moderno)
+* ✅ Integração com WhatsApp para conversão
+* ✅ Estrutura pronta para funil de vendas
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3 (Design responsivo + UI moderna)
-- JavaScript (Vanilla JS)
+* HTML5
+* CSS3 (Design responsivo + UI moderna)
+* JavaScript (Vanilla JS)
+* Chart.js (gráfico de resultado)
+* jsPDF (exportação PDF)
 
 ---
 
@@ -69,10 +75,11 @@ O teste é baseado na teoria dos temperamentos desenvolvida por:
 
 Este projeto foi desenvolvido com foco em:
 
-- Experiência intuitiva
-- Leitura fácil
-- Engajamento emocional
-- Interface limpa e profissional
+* Experiência intuitiva
+* Leitura fácil
+* Engajamento emocional
+* Interface limpa e profissional
+* Hero responsivo sem corte da imagem
 
 ---
 
@@ -82,8 +89,8 @@ A aplicação funciona como um mini funil:
 
 1. Usuário acessa a página
 2. Responde o teste
-3. Se identifica com o resultado
-4. Reconhece padrões emocionais
+3. Visualiza gráfico e resultado detalhado
+4. Se identifica com o resultado
 5. É direcionado para o WhatsApp
 6. Inicia contato para atendimento
 
@@ -92,15 +99,13 @@ A aplicação funciona como um mini funil:
 ## 📂 Estrutura do Projeto
 
 ```
-
 /teste-temperamento
 │
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
-
-````
+├── README.md
+```
 
 ---
 
@@ -110,7 +115,7 @@ A aplicação funciona como um mini funil:
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-````
+```
 
 2. Acesse a pasta:
 
@@ -130,13 +135,14 @@ index.html
 
 Antes de usar:
 
-* Substitua o número do WhatsApp em:
+* Substitua o número do WhatsApp no script:
 
 ```javascript
 https://wa.me/55SEUNUMERO
 ```
 
 * Adicione o ID da playlist do YouTube no HTML
+* Certifique-se de que o `script.js` está com a função de exportar PDF e gerar gráfico ativada
 
 ---
 
@@ -179,9 +185,7 @@ Sinta-se à vontade para contribuir, sugerir melhorias ou adaptar o projeto.
 
 Este projeto não é apenas código.
 
-É uma ferramenta para ajudar pessoas a se entenderem — e transformar isso em oportunidade de conexão e transformação emocional.
-
-```
+É uma ferramenta para ajudar pessoas a se entenderem — e transformar isso em oportunidade de **conexão, autoconhecimento e conversão profissional**.
 
 ---
 

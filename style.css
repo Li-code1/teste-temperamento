@@ -73,6 +73,11 @@ button {
     border-radius: 10px;
     background: #f3e8ff;
     cursor: pointer;
+    transition: all 0.2s;
+}
+
+.option:hover {
+    background: #e9d5ff;
 }
 
 .option input {
@@ -90,8 +95,13 @@ button {
 }
 
 /* RESULTADO */
-.result {
+#resultado {
     display: none;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    margin-top: 20px;
 }
 
 /* CTA */
@@ -99,4 +109,7 @@ button {
     text-align: center;
     background: linear-gradient(135deg,#9333ea,#db2777);
     color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
